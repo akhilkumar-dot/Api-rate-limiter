@@ -1,0 +1,178 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.ratelimiter:auth-service >--------------------
+[INFO] Building  0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.4.1:clean (default-clean) @ auth-service ---
+[INFO] Deleting C:\Users\Akhil M\Downloads\rate-limiter-platform\auth-service\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ auth-service ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ auth-service ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 14 source files with javac [debug parameters release 17] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/controller/AuthController.java:[24,27] cannot access com.ratelimiter.auth_service.dto.LoginResponseDTO
+  bad source file: C:\Users\Akhil M\Downloads\rate-limiter-platform\auth-service\src\main\java\com\ratelimiter\auth_service\dto\LoginResponseDTO.java
+    file does not contain class com.ratelimiter.auth_service.dto.LoginResponseDTO
+    Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/dto/LoginResponseDTO.java:[8,8] class LoginResponse is public, should be declared in a file named LoginResponse.java
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthService.java:[8,5] cannot find symbol
+  symbol:   class LoginResponseDTO
+  location: interface com.ratelimiter.auth_service.service.AuthService
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[40,12] cannot find symbol
+  symbol:   class LoginResponseDTO
+  location: class com.ratelimiter.auth_service.service.AuthServiceImpl
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[24,57] cannot find symbol
+  symbol:   method getEmail()
+  location: variable requestDTO of type com.ratelimiter.auth_service.dto.RegisterRequestDTO
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[29,37] cannot find symbol
+  symbol:   method getName()
+  location: variable requestDTO of type com.ratelimiter.auth_service.dto.RegisterRequestDTO
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[30,38] cannot find symbol
+  symbol:   method getEmail()
+  location: variable requestDTO of type com.ratelimiter.auth_service.dto.RegisterRequestDTO
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[31,64] cannot find symbol
+  symbol:   method getPassword()
+  location: variable requestDTO of type com.ratelimiter.auth_service.dto.RegisterRequestDTO
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[32,44] cannot find symbol
+  symbol:   method getCompanyName()
+  location: variable requestDTO of type com.ratelimiter.auth_service.dto.RegisterRequestDTO
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[33,18] cannot find symbol
+  symbol:   method setStatus(com.ratelimiter.auth_service.model.DeveloperStatus)
+  location: variable developer of type com.ratelimiter.auth_service.model.Developer
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[42,73] cannot find symbol
+  symbol:   method getEmail()
+  location: variable requestDTO of type com.ratelimiter.auth_service.dto.LoginRequestDTO
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[45,48] cannot find symbol
+  symbol:   method getPassword()
+  location: variable requestDTO of type com.ratelimiter.auth_service.dto.LoginRequestDTO
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[45,73] cannot find symbol
+  symbol:   method getPassword()
+  location: variable developer of type com.ratelimiter.auth_service.model.Developer
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[49,22] cannot find symbol
+  symbol:   method getStatus()
+  location: variable developer of type com.ratelimiter.auth_service.model.Developer
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[53,55] cannot find symbol
+  symbol:   method getEmail()
+  location: variable developer of type com.ratelimiter.auth_service.model.Developer
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[53,77] cannot find symbol
+  symbol:   method getId()
+  location: variable developer of type com.ratelimiter.auth_service.model.Developer
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[54,20] cannot find symbol
+  symbol:   class LoginResponseDTO
+  location: class com.ratelimiter.auth_service.service.AuthServiceImpl
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[54,53] cannot find symbol
+  symbol:   method getEmail()
+  location: variable developer of type com.ratelimiter.auth_service.model.Developer
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[54,75] cannot find symbol
+  symbol:   method getCompanyName()
+  location: variable developer of type com.ratelimiter.auth_service.model.Developer
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[59,28] cannot find symbol
+  symbol:   method getId()
+  location: variable developer of type com.ratelimiter.auth_service.model.Developer
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[60,30] cannot find symbol
+  symbol:   method getName()
+  location: variable developer of type com.ratelimiter.auth_service.model.Developer
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[61,31] cannot find symbol
+  symbol:   method getEmail()
+  location: variable developer of type com.ratelimiter.auth_service.model.Developer
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[62,37] cannot find symbol
+  symbol:   method getCompanyName()
+  location: variable developer of type com.ratelimiter.auth_service.model.Developer
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[63,32] cannot find symbol
+  symbol:   method getStatus()
+  location: variable developer of type com.ratelimiter.auth_service.model.Developer
+[INFO] 24 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.715 s
+[INFO] Finished at: 2026-06-08T21:28:51+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.14.1:compile (default-compile) on project auth-service: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/controller/AuthController.java:[24,27] cannot access com.ratelimiter.auth_service.dto.LoginResponseDTO
+[ERROR]   bad source file: C:\Users\Akhil M\Downloads\rate-limiter-platform\auth-service\src\main\java\com\ratelimiter\auth_service\dto\LoginResponseDTO.java
+[ERROR]     file does not contain class com.ratelimiter.auth_service.dto.LoginResponseDTO
+[ERROR]     Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/dto/LoginResponseDTO.java:[8,8] class LoginResponse is public, should be declared in a file named LoginResponse.java
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthService.java:[8,5] cannot find symbol
+[ERROR]   symbol:   class LoginResponseDTO
+[ERROR]   location: interface com.ratelimiter.auth_service.service.AuthService
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[40,12] cannot find symbol
+[ERROR]   symbol:   class LoginResponseDTO
+[ERROR]   location: class com.ratelimiter.auth_service.service.AuthServiceImpl
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[24,57] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable requestDTO of type com.ratelimiter.auth_service.dto.RegisterRequestDTO
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[29,37] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable requestDTO of type com.ratelimiter.auth_service.dto.RegisterRequestDTO
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[30,38] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable requestDTO of type com.ratelimiter.auth_service.dto.RegisterRequestDTO
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[31,64] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable requestDTO of type com.ratelimiter.auth_service.dto.RegisterRequestDTO
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[32,44] cannot find symbol
+[ERROR]   symbol:   method getCompanyName()
+[ERROR]   location: variable requestDTO of type com.ratelimiter.auth_service.dto.RegisterRequestDTO
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[33,18] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.ratelimiter.auth_service.model.DeveloperStatus)
+[ERROR]   location: variable developer of type com.ratelimiter.auth_service.model.Developer
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[42,73] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable requestDTO of type com.ratelimiter.auth_service.dto.LoginRequestDTO
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[45,48] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable requestDTO of type com.ratelimiter.auth_service.dto.LoginRequestDTO
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[45,73] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable developer of type com.ratelimiter.auth_service.model.Developer
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[49,22] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable developer of type com.ratelimiter.auth_service.model.Developer
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[53,55] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable developer of type com.ratelimiter.auth_service.model.Developer
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[53,77] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable developer of type com.ratelimiter.auth_service.model.Developer
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[54,20] cannot find symbol
+[ERROR]   symbol:   class LoginResponseDTO
+[ERROR]   location: class com.ratelimiter.auth_service.service.AuthServiceImpl
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[54,53] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable developer of type com.ratelimiter.auth_service.model.Developer
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[54,75] cannot find symbol
+[ERROR]   symbol:   method getCompanyName()
+[ERROR]   location: variable developer of type com.ratelimiter.auth_service.model.Developer
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[59,28] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable developer of type com.ratelimiter.auth_service.model.Developer
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[60,30] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable developer of type com.ratelimiter.auth_service.model.Developer
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[61,31] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable developer of type com.ratelimiter.auth_service.model.Developer
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[62,37] cannot find symbol
+[ERROR]   symbol:   method getCompanyName()
+[ERROR]   location: variable developer of type com.ratelimiter.auth_service.model.Developer
+[ERROR] /C:/Users/Akhil M/Downloads/rate-limiter-platform/auth-service/src/main/java/com/ratelimiter/auth_service/service/AuthServiceImpl.java:[63,32] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable developer of type com.ratelimiter.auth_service.model.Developer
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
