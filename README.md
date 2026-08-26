@@ -1,4 +1,4 @@
-# 🚀 Scalable API Rate Limiter Platform
+# Scalable API Rate Limiter Platform
 
 ![Java](https://img.shields.io/badge/Java-17-orange.svg)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5.x-brightgreen.svg)
@@ -10,21 +10,21 @@ A robust, highly scalable microservices-based API Rate Limiter platform built us
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-* 🔐 **Developer Authentication:** Secure registration and login leveraging JWT.
-* 🛡️ **Multiple Rate Limiting Algorithms:** Comprehensive support for various use cases:
+* **Developer Authentication:** Secure registration and login leveraging JWT.
+* **Multiple Rate Limiting Algorithms:** Comprehensive support for various use cases:
   * **Fixed Window:** Simple and effective for standard limits.
   * **Sliding Window:** Smooths out traffic spikes.
   * **Leaky Bucket:** Ensures a constant rate of output.
   * **Token Bucket:** Allows for bursts of traffic while maintaining a steady average.
-* ⚙️ **Dynamic API Configuration:** Developers can configure and update rate limit rules per API endpoint dynamically without downtime.
-* 📊 **Real-time Analytics:** Asynchronously processes request logs via Kafka and stores them in PostgreSQL for detailed reporting and monitoring.
-* 🏗️ **Microservices Architecture:** Built with Spring Cloud, incorporating an API Gateway for routing and a Eureka Service Registry for dynamic service discovery.
+* **Dynamic API Configuration:** Developers can configure and update rate limit rules per API endpoint dynamically without downtime.
+* **Real-time Analytics:** Asynchronously processes request logs via Kafka and stores them in PostgreSQL for detailed reporting and monitoring.
+* **Microservices Architecture:** Built with Spring Cloud, incorporating an API Gateway for routing and a Eureka Service Registry for dynamic service discovery.
 
 ---
 
-## 🏛️ Architecture
+## Architecture
 
 The platform is designed with a distributed microservices architecture to ensure high availability and scalability.
 
@@ -84,7 +84,7 @@ graph TD
     class DB,Redis,Kafka db;
 ```
 
-### 🧩 Core Components:
+### Core Components
 
 1. **API Gateway (`api-gateway`):** The single entry point for all incoming requests. It handles JWT validation and routes traffic to the appropriate backend microservices.
 2. **Auth Service (`auth-service`):** Manages developer registration, authentication, and JWT token issuance.
@@ -95,7 +95,7 @@ graph TD
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 * **Language & Framework:** Java 17, Spring Boot 3.5.x
 * **Cloud & Routing:** Spring Cloud Gateway, Netflix Eureka
@@ -106,7 +106,7 @@ graph TD
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 Follow these instructions to get a copy of the project up and running on your local machine.
 
@@ -130,7 +130,7 @@ docker-compose up -d
 
 ### 2. Configure Database
 
-By default, the services are configured to connect to a **Supabase PostgreSQL** instance. 
+By default, the services are configured to connect to a **Supabase PostgreSQL** instance.
 To run locally, you must update the `application.properties` file in the following services:
 * `auth-service`
 * `api-config-service`
@@ -161,7 +161,7 @@ cd <service-folder>
 
 ---
 
-## 📚 Typical API Flow
+## Typical API Flow
 
 1. **Register/Login:** A developer authenticates via the Auth Service and receives a JWT token.
 2. **Configure API:** The developer uses the API Config Service to establish a rate-limit configuration for their endpoint (e.g., *100 requests per minute using the Token Bucket algorithm*).
@@ -173,6 +173,6 @@ cd <service-folder>
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License.
